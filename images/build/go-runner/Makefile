@@ -21,9 +21,11 @@ GO_MAJOR_VERSION ?= 1.17
 REVISION ?= 0
 
 # Build args
+BUILDER_BASEIMAGE ?= golang:$(GO_VERSION)-$(OS_CODENAME)
 GO_VERSION ?= 1.17.1
 OS_CODENAME ?= buster
 DISTROLESS_IMAGE ?= static-debian10
+DISTROLESS_IMAGE_REGISTRY ?= gcr.io/distroless/
 
 # Configuration
 CONFIG = go$(GO_MAJOR_VERSION)-$(OS_CODENAME)
