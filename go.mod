@@ -3,8 +3,8 @@ module k8s.io/release
 go 1.17
 
 require (
-	cloud.google.com/go/containeranalysis v0.1.0
-	cloud.google.com/go/storage v1.16.1
+	cloud.google.com/go/containeranalysis v0.6.0
+	cloud.google.com/go/storage v1.27.0
 	github.com/GoogleCloudPlatform/testgrid v0.0.38
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheggaaa/pb/v3 v3.0.8
@@ -29,13 +29,13 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spiegel-im-spiegel/go-cvss v0.4.0
-	github.com/stretchr/testify v1.7.0
-	github.com/yuin/goldmark v1.4.1
-	golang.org/x/mod v0.5.1
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
-	golang.org/x/tools v0.1.7
-	google.golang.org/api v0.56.0
-	google.golang.org/genproto v0.0.0-20210828152312-66f60bf46e71
+	github.com/stretchr/testify v1.8.1
+	github.com/yuin/goldmark v1.4.13
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
+	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b
+	golang.org/x/tools v0.1.12
+	google.golang.org/api v0.105.0
+	google.golang.org/genproto v0.0.0-20221206210731-b1a01be3a5f6
 	gopkg.in/yaml.v2 v2.4.0
 	sigs.k8s.io/mdtoc v1.1.0
 	sigs.k8s.io/promo-tools/v3 v3.2.1
@@ -46,8 +46,8 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.93.3 // indirect
-	cloud.google.com/go/grafeas v0.0.0-20210817223811-71387f0142a4 // indirect
+	cloud.google.com/go v0.105.0 // indirect
+	cloud.google.com/go/grafeas v0.2.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/Microsoft/go-winio v0.5.0 // indirect
@@ -72,10 +72,10 @@ require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/gomarkdown/markdown v0.0.0-20210514010506-3b9f47219fe7 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/go-github/v33 v33.0.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/googleapis/gax-go/v2 v2.1.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
 	github.com/hashicorp/go-multierror v1.0.0 // indirect
@@ -101,23 +101,27 @@ require (
 	github.com/src-d/gcfg v1.4.0 // indirect
 	github.com/xanzy/go-gitlab v0.43.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
-	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
-	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/text v0.3.6 // indirect
+	go.opencensus.io v0.24.0 // indirect
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
+	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/grpc v1.40.0 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/grpc v1.51.0 // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2 // indirect
 	gopkg.in/src-d/go-git.v4 v4.13.1 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 require (
+	cloud.google.com/go/compute v1.13.0 // indirect
+	cloud.google.com/go/compute/metadata v0.2.2 // indirect
+	cloud.google.com/go/iam v0.8.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
 	github.com/shibumi/go-pathspec v1.2.0 // indirect
-	golang.org/x/sys v0.0.0-20210909193231-528a39cd75f3 // indirect
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
 )
